@@ -8,7 +8,7 @@ import Image from "next/image";
 export default function Hero() {
   // Define sequence for typing effect
   const typingSequence = [
-    "Arun Singh", 1500, // Waits 1.5s
+    "Amit Mishra", 1500, // Waits 1.5s
     "Full Stack Developer.", 2000, 
     "UI/UX Designer.", 2000,
     "Cybersecurity Specialist.", 2000, // Matching your metadata title
@@ -62,18 +62,20 @@ export default function Hero() {
             {/* Right Portion: Image/Visual (Defender Aesthetic) */}
             <motion.div initial={{ opacity: 0, x: 50 }} animate={{ opacity: 1, x: 0 }} transition={{ duration: 0.8, delay: 0.3 }}
                 className="md:col-span-4 relative flex justify-center items-center">
-   
-                      {/* REPLACE THIS IMAGE PLACEHOLDER:
-                            Ensure your image (Arun_Singh.jpg) is in the /public folder.
-                            A 1:1 square ratio works best.
-                        */}
-                        <img src="/ArunSingh.png" alt="Arun Singh" className=" w-70" />
 
-                        {/* Creative 'Scanning' Line for 'Defender' concept */}
-                        <div className="absolute inset-0 bg-gradient-to-t from-emerald-500/10 to-transparent opacity-0 group-hover:opacity-100 transition-opacity"></div>
-                        <div className="absolute h-1 w-full bg-emerald-400/50 blur-sm top-0 left-0 animate-[scan_4s_ease-in-out_infinite]"></div>
+                <div className="relative overflow-hidden rounded-[2rem] border border-emerald-500/20 shadow-2xl w-[280px] h-[280px] md:w-[340px] md:h-[340px]">
+                    <Image
+                        src="/Amit_Mishra.jpg.jpeg"
+                        alt="Amit Mishra"
+                        width={340}
+                        height={340}
+                        className="object-cover w-full h-full"
+                    />
+                    <div className="absolute inset-0 bg-gradient-to-t from-emerald-500/15 to-transparent pointer-events-none"></div>
+                </div>
 
-                
+                <div className="pointer-events-none absolute inset-0 bg-gradient-to-t from-emerald-500/10 to-transparent opacity-50"></div>
+                <div className="absolute h-1 w-full bg-emerald-400/50 blur-sm top-0 left-0 animate-[scan_4s_ease-in-out_infinite]"></div>
             </motion.div>
         </div>
     </section>

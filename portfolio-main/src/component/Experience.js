@@ -5,9 +5,9 @@ import { motion } from "framer-motion";
 const journey = [
   {
     type: "experience",
-    title: "Exner Technologies Pvt Ltd",
+    title: "Tech Aura Pvt Ltd",
     subtitle: "Software Engineer",
-    duration: "Feb 2025 – Present",
+    duration: "Aug 2025 – Present",
     details: [
       "Built hospital management system",
       "Developed real-time features using WebSockets",
@@ -16,19 +16,19 @@ const journey = [
   },
   {
     type: "experience",
-    title: "Delhivery Pvt Ltd",
-    subtitle: "Team Lead (Operations)",
-    duration: "July 2024 – Aug 2024",
+    title: "Kelton Tech",
+    subtitle: "Software Engineer ",
+    duration: "May 2025 – Aug 2025",
     details: [
-      "Led team operations and automation",
+      "Designed microservices with Spring Boot",
       "Improved efficiency in task assignments",
     ],
   },
   {
     type: "experience",
-    title: "Trends Infonet Solutions",
+    title: "CoreFront Technologies",
     subtitle: "Java Backend Developer",
-    duration: "Aug 2021 – Jan 2024",
+    duration: "Mar 2022 – May 2025",
     details: [
       "Migrated monolith to microservices",
       "Integrated OAuth2 & JWT security",
@@ -52,9 +52,9 @@ const journey = [
     type: "education",
     title: "Higher Secondary (HSC)",
     subtitle: "PCM Stream",
-    duration: "2016",
+    duration: "2014",
     details: [
-      "Scored 73.2% with Physics, Chemistry & Mathematics",
+      "Scored 70% with Physics, Chemistry & Mathematics",
       "Developed analytical and problem-solving mindset",
       "Built strong fundamentals in mathematics and logic",
     ],
@@ -64,9 +64,9 @@ const journey = [
     type: "education",
     title: "Secondary School (SSC)",
     subtitle: "Science & Mathematics",
-    duration: "2014",
+    duration: "2010",
     details: [
-      "Achieved 9.6 CGPA",
+      "Achieved 68%",
       "Strong academic performance in Science & Mathematics",
       "Early interest in logical reasoning and computing",
     ],

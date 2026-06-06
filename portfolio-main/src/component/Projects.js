@@ -18,8 +18,8 @@ const projects = [
     tech: ["Spring Boot", "React", "Redis", "AI", "MySQL"],
     live: "https://apexprepai.up.railway.app",
     github: [
-      "https://github.com/arunsin0211-dev/apexprep-backend",
-      "https://github.com/arunsin0211-dev/apexprep-frontend",
+      "https://github.com/amitm256/apexprep-backend",
+      "https://github.com/amitm256/apexprep-frontend",
     ],
     glow: "from-emerald-500/20 to-cyan-500/20",
   },

@@ -21,7 +21,7 @@ export default function MenuHeader() {
         {/* Logo Section */}
         <a href="/" 
           className="font-[family-name:var(--font-jetbrains)] text-4xl font-bold text-slate-900 dark:text-white group">
-          Arun&nbsp;
+          Amit&nbsp;
           <span className="inline-block text-emerald-500 transition-transform duration-300 group-hover:rotate-12"> .</span>
         </a>
 
