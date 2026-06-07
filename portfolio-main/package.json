@@ -14,7 +14,7 @@
     "@fortawesome/free-solid-svg-icons": "^7.2.0",
     "@fortawesome/react-fontawesome": "^3.3.1",
     "axios": "^1.15.0",
-    "dotenv": "^17.4.2",
+    "dotEMAIL_USER, EMAIL_PASS, e": "^17.4.2",
     "framer-motion": "^12.38.0",
     "lucide-react": "^1.8.0",
     "next": "16.2.3",

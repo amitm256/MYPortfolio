@@ -9,7 +9,7 @@ const eslintConfig = defineConfig([
     ".next/**",
     "out/**",
     "build/**",
-    "next-env.d.ts",
+    "next-EMAIL_USER, EMAIL_PASS, e.d.ts",
   ]),
 ]);
 

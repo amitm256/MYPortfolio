@@ -3,7 +3,7 @@
 # dependencies
 /node_modules
 /.pnp
-.env
+.EMAIL_USER, EMAIL_PASS, e
 .pnp.*
 .yarn/*
 !.yarn/patches
@@ -31,12 +31,12 @@ yarn-debug.log*
 yarn-error.log*
 .pnpm-debug.log*
 
-# env files (can opt-in for committing if needed)
-.env*
+# EMAIL_USER, EMAIL_PASS, e files (can opt-in for committing if needed)
+.EMAIL_USER, EMAIL_PASS, e*
 
 # vercel
 .vercel
 
 # typescript
 *.tsbuildinfo
-next-env.d.ts
+next-EMAIL_USER, EMAIL_PASS, e.d.ts
