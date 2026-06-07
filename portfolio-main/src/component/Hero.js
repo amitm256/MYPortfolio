@@ -52,7 +52,7 @@ export default function Hero() {
                         <ArrowRight size={18} className="group-hover:translate-x-1 transition-transform" />
                     </motion.a>
                     
-                    <a href="/Team_Lead_Java_Developer_Resume.pdf" download target="_blank"
+                    <a href="/ResumeAmitMishraJavaFullStackDevelopers43years.pdf" download target="_blank"
                         className="text-slate-700 dark:text-slate-200 font-medium hover:text-emerald-600 dark:hover:text-emerald-400 transition-colors">
                         Download Resume
                     </a>
